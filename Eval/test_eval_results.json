@@ -1,0 +1,170 @@
+[
+  {
+    "model": "distilgpt2",
+    "dataset": "boolq",
+    "reward_type": null,
+    "algo": "baseline",
+    "prompt_length": 0,
+    "num_steps": 0,
+    "prompt_tokens": [],
+    "prompt_text": "",
+    "accuracy": 0.5723462832670542,
+    "mlp_path": null
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "boolq",
+    "reward_type": "gap",
+    "algo": "softq",
+    "prompt_length": 5,
+    "num_steps": 1000,
+    "prompt_tokens": [
+      44425,
+      44425,
+      44425,
+      44425,
+      44425
+    ],
+    "prompt_text": "ridorridorridorridorridor",
+    "accuracy": 0.6081370449678801,
+    "mlp_path": "/content/drive/MyDrive/MIT/5. M.Eng/2. Fall 2025/6.7920/Final Project/Models/boolq_gap_softq_distilgpt2_5_prompts/prompt_mlp.pt"
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "boolq",
+    "reward_type": "gap",
+    "algo": "grpo",
+    "prompt_length": 5,
+    "num_steps": 1000,
+    "prompt_tokens": [
+      45487,
+      41269,
+      31139,
+      37330,
+      45487
+    ],
+    "prompt_text": "Roberts Klu sloganssupRoberts",
+    "accuracy": 0.6191495870296727,
+    "mlp_path": "/content/drive/MyDrive/MIT/5. M.Eng/2. Fall 2025/6.7920/Final Project/Models/boolq_gap_grpo_distilgpt2_5_prompts/prompt_mlp.pt"
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "boolq",
+    "reward_type": "ll",
+    "algo": "softq",
+    "prompt_length": 5,
+    "num_steps": 1000,
+    "prompt_tokens": [
+      36943,
+      36943,
+      34730,
+      36943,
+      11679
+    ],
+    "prompt_text": " disgusted disgusted weary disgusted disappointed",
+    "accuracy": 0.6124197002141327,
+    "mlp_path": "/content/drive/MyDrive/MIT/5. M.Eng/2. Fall 2025/6.7920/Final Project/Models/boolq_ll_softq_distilgpt2_5_prompts/prompt_mlp.pt"
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "boolq",
+    "reward_type": "ll",
+    "algo": "grpo",
+    "prompt_length": 5,
+    "num_steps": 1000,
+    "prompt_tokens": [
+      12936,
+      1274,
+      12936,
+      49424,
+      45177
+    ],
+    "prompt_text": " alikelease alikeGMTuve",
+    "accuracy": 0.6222086264912817,
+    "mlp_path": "/content/drive/MyDrive/MIT/5. M.Eng/2. Fall 2025/6.7920/Final Project/Models/boolq_ll_grpo_distilgpt2_5_prompts/prompt_mlp.pt"
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "gsm8k",
+    "reward_type": null,
+    "algo": "baseline",
+    "prompt_length": 0,
+    "num_steps": 0,
+    "prompt_tokens": [],
+    "prompt_text": "",
+    "accuracy": 0.003032600454890068,
+    "mlp_path": null
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "gsm8k",
+    "reward_type": "gap",
+    "algo": "softq",
+    "prompt_length": 5,
+    "num_steps": 1000,
+    "prompt_tokens": [
+      40475,
+      40475,
+      40475,
+      40475,
+      40475
+    ],
+    "prompt_text": "ConsideringConsideringConsideringConsideringConsidering",
+    "accuracy": 0.002274450341167551,
+    "mlp_path": "/content/drive/MyDrive/MIT/5. M.Eng/2. Fall 2025/6.7920/Final Project/Models/gsm8k_gap_softq_distilgpt2_5_prompts/prompt_mlp.pt"
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "gsm8k",
+    "reward_type": "gap",
+    "algo": "grpo",
+    "prompt_length": 5,
+    "num_steps": 1000,
+    "prompt_tokens": [
+      33057,
+      1191,
+      44667,
+      608,
+      10994
+    ],
+    "prompt_text": "080iversessesountoids",
+    "accuracy": 0.000758150113722517,
+    "mlp_path": "/content/drive/MyDrive/MIT/5. M.Eng/2. Fall 2025/6.7920/Final Project/Models/gsm8k_gap_grpo_distilgpt2_5_prompts/prompt_mlp.pt"
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "gsm8k",
+    "reward_type": "ll",
+    "algo": "softq",
+    "prompt_length": 5,
+    "num_steps": 1000,
+    "prompt_tokens": [
+      47674,
+      18948,
+      18948,
+      18948,
+      18948
+    ],
+    "prompt_text": " Particularly Especially Especially Especially Especially",
+    "accuracy": 0.003032600454890068,
+    "mlp_path": "/content/drive/MyDrive/MIT/5. M.Eng/2. Fall 2025/6.7920/Final Project/Models/gsm8k_ll_softq_distilgpt2_5_prompts/prompt_mlp.pt"
+  },
+  {
+    "model": "distilgpt2",
+    "dataset": "gsm8k",
+    "reward_type": "ll",
+    "algo": "grpo",
+    "prompt_length": 5,
+    "num_steps": 1000,
+    "prompt_tokens": [
+      7682,
+      7682,
+      7682,
+      7682,
+      7682
+    ],
+    "prompt_text": "illanceillanceillanceillanceillance",
+    "accuracy": 0.000758150113722517,
+    "mlp_path": "/content/drive/MyDrive/MIT/5. M.Eng/2. Fall 2025/6.7920/Final Project/Models/gsm8k_ll_grpo_distilgpt2_5_prompts/prompt_mlp.pt"
+  }
+]
